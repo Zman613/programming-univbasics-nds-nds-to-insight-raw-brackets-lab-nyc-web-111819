@@ -19,7 +19,7 @@ def directors_totals(nds)
       i += 1
     end
     name = nds[o][:name]
-    result = name
+    result.merge! (name =< total)
     o += 1
   end
   #
